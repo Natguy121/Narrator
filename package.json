@@ -1,0 +1,14 @@
+{
+  "name": "the-narrator-says",
+  "version": "1.0.0",
+  "private": true,
+  "description": "THE NARRATOR SAYS - a first-person 3D browser game in a single offline HTML file.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.24.0",
+    "three": "0.170.0"
+  }
+}
