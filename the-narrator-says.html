@@ -7605,7 +7605,7 @@ const Chaser = {
     n.pos.set(sx, 0, sz); n.area = P.area; n.hidden = false; n.behavior = 'chaser'; n.speed = o.speed || 5.2;
     n.item.visible = o.item !== 'none';
     this.give = o.give || 'dumpling'; this.say = o.say || ['拿着！拿着！', 'Take it! Take it!']; this.onCatch = o.onCatch;
-    this.active = true; this.t = 0;
+    this.active = true; this.t = 0; Game.stats.chased = true;
     setTimeout(() => npcBubble(n, o.call || ['等一下！', 'Wait!'], 2), 300);
   },
   update(dt) {
