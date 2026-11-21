@@ -4,7 +4,9 @@ A first-person 3D browser game in **one self-contained HTML file** that runs off
 
 You are a regular person walking through a busy Chinese neighborhood. A calm, smug Narrator speaks in your head and tells you exactly what to do, one order at a time. Obey and things go smoothly. Disobey and the Narrator reacts, and the city gets funnier and stranger.
 
-**Play:** open [`the-narrator-says.html`](the-narrator-says.html) in a modern desktop or mobile browser. No server, no internet, no install.
+**Play online:** https://natguy121.github.io/Narrator/
+
+**Play offline:** open [`the-narrator-says.html`](the-narrator-says.html) in a modern desktop or mobile browser. No server, no internet, no install.
 
 ## How it plays
 

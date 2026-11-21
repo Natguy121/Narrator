@@ -41,4 +41,5 @@ const out = template
   .replace('<!--GAME-->', () => `<script>\n${safe(game)}\n</script>`);
 
 writeFileSync(join(root, 'the-narrator-says.html'), out);
+writeFileSync(join(root, 'index.html'), out); // GitHub Pages entry point
 console.log(`Built the-narrator-says.html (${(out.length / 1024).toFixed(0)} KB) from ${files.length} source files.`);
